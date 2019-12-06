@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*, *::before, *:after {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none
+}
+
+li {
+    list-style: none;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Wrapper */
+.wrapper {
+    margin-left: 240px;
+    transition: 0.2s;
+}
+
+/* Media */
+@media screen and (max-width: 768px) {
+
+    .wrapper {
+        margin-left: 108px;
+    }
+}
