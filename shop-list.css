@@ -20,6 +20,12 @@
     float: left;
 }
 
+.shop-list__grid::after {
+    display: table;
+    clear: both;
+    content: '';
+}
+
 .shop-list__shop-card {
     display: flex;
     justify-content: space-between;

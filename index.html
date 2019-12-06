@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <meta charset="utf-8">
         <title>BECO</title>
@@ -12,224 +12,226 @@
         <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     </head>
     <body>
-        <div class="sidebar">
-            <input type="checkbox" class="sidebar__menu-ticker" id="sidebar__menu-ticker">
-            <label class="sidebar__btn-menu" for="sidebar__menu-ticker">
-                <span class="sidebar__line sidebar__first-line"></span>
-                <span class="sidebar__line sidebar__second-line"></span>
-                <span class="sidebar__line sidebar__third-line"></span>
-            </label>
-            <div class="sidebar__menu">
-                <a href="#" class="sidebar__logo">
-                    <img class="sidebar__logo-img" src="images/logo.png" alt="logo" />
-                    <span class="sidebar__logo-text">BECO</span>
-                </a>
-                <ul class="sidebar__nav">
-                    <li class="sidebar__nav-item">
-                        <a href="#">
-                            <i class="fa fa-th-large fa-lg sidebar__nav-item-icon"></i>
-                            <span class="sidebar__nav-item-text">Каталог</span>
-                        </a>
-                    </li>  
-                    <li class="sidebar__nav-item">
-                        <a href="#"> 
-                            <i class="fa fa-heartbeat fa-lg sidebar__nav-item-icon"></i>
-                            <span class="sidebar__nav-item-text">Здоровье</span>
-                        </a>
-                    </li>  
-                    <li class="sidebar__nav-item">
-                        <a href="#">
-                            <i class="fa fa-heart fa-lg sidebar__nav-item-icon"></i>
-                            <span class="sidebar__nav-item-text">Красота</span>
-                        </a>
-                    </li>  
-                    <li class="sidebar__nav-item sidebar__nav-item_active">
-                        <a href="#">
-                            <i class="fa fa-github fa-lg sidebar__nav-item-icon"></i>
-                            <span class="sidebar__nav-item-text">Развлечения</span>
-                        </a>
-                    </li>  
-                    <li class="sidebar__nav-item">
-                        <a href="#">
-                            <i class="fa fa-truck fa-lg sidebar__nav-item-icon"></i>
-                            <span class="sidebar__nav-item-text">Авто</span>
-                        </a>
-                    </li>   
-                </ul>
+        <div>
+            <div class="sidebar">
+                <input type="checkbox" class="sidebar__menu-ticker" id="sidebar__menu-ticker">
+                <label class="sidebar__btn-menu" for="sidebar__menu-ticker">
+                    <span class="sidebar__line sidebar__first-line"></span>
+                    <span class="sidebar__line sidebar__second-line"></span>
+                    <span class="sidebar__line sidebar__third-line"></span>
+                </label>
+                <div class="sidebar__menu">
+                    <a href="#" class="sidebar__logo">
+                        <img class="sidebar__logo-img" src="images/logo.png" alt="logo" />
+                        <span class="sidebar__logo-text">BECO</span>
+                    </a>
+                    <ul class="sidebar__nav">
+                        <li class="sidebar__nav-item">
+                            <a href="#">
+                                <i class="fa fa-th-large fa-lg sidebar__nav-item-icon"></i>
+                                <span class="sidebar__nav-item-text">Каталог</span>
+                            </a>
+                        </li>  
+                        <li class="sidebar__nav-item">
+                            <a href="#"> 
+                                <i class="fa fa-heartbeat fa-lg sidebar__nav-item-icon"></i>
+                                <span class="sidebar__nav-item-text">Здоровье</span>
+                            </a>
+                        </li>  
+                        <li class="sidebar__nav-item">
+                            <a href="#">
+                                <i class="fa fa-heart fa-lg sidebar__nav-item-icon"></i>
+                                <span class="sidebar__nav-item-text">Красота</span>
+                            </a>
+                        </li>  
+                        <li class="sidebar__nav-item sidebar__nav-item_active">
+                            <a href="#">
+                                <i class="fa fa-github fa-lg sidebar__nav-item-icon"></i>
+                                <span class="sidebar__nav-item-text">Развлечения</span>
+                            </a>
+                        </li>  
+                        <li class="sidebar__nav-item">
+                            <a href="#">
+                                <i class="fa fa-truck fa-lg sidebar__nav-item-icon"></i>
+                                <span class="sidebar__nav-item-text">Авто</span>
+                            </a>
+                        </li>   
+                    </ul>
+                </div>
             </div>
-        </div>
-        <div class="wrapper">
-            <div class="header">
-                <h1 class="header__title">Развлечения</h1>
-                <input type="text" class="header__search-input" placeholder="Какой магазин вам нужен?" />
-                <i class="fa fa-search fa-lg header__search-icon"></i>
-            </div>
-            <div class="shop-list">
-                <div class="shop-list__grid">
-                    <div class="shop-list__grid-item">
-                        <div class="shop-list__shop-card" style="background-image: url(images/пробка_на_мира.png);">
-                            <div class="shop-list__info">
-                                <div>
-                                    <div class="shop-list__shop-name">Пробка на мира</div>
-                                    <div class="shop-list__tagline">Вечер для двоих</div>
-                                </div>
-                                <div>
-                                    <div class="shop-list__action-value">-50%</div>
-                                    <div class="shop-list__action-name">Скидка</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="shop-list__grid-item">
-                        <div class="shop-list__shop-card" style="background-image: url(images/кино_и_немцы.png);">
-                            <div class="shop-list__info">
-                                <div>
-                                    <div class="shop-list__shop-name">КИНО И НЕМЦЫ</div>
-                                    <div class="shop-list__tagline">Бесплатный бокал пива</div>
-                                </div>
-                                <div>
-                                    <div class="shop-list__action-value">ВАРВАР</div>
-                                    <div class="shop-list__action-name">ПРОМОКОД</div>
+            <div class="wrapper">
+                <h1 class="header-title">Развлечения</h1>
+                <div class="search-input-wrapper">
+                    <input type="text" class="search-input" placeholder="Какой магазин вам нужен?" />
+                    <i class="fa fa-search fa-lg search-icon"></i>
+                </div>
+                <div class="shop-list">
+                    <div class="shop-list__grid">
+                        <div class="shop-list__grid-item">
+                            <div class="shop-list__shop-card" style="background-image: url(images/пробка_на_мира.png);">
+                                <div class="shop-list__info">
+                                    <div>
+                                        <div class="shop-list__shop-name">Пробка на мира</div>
+                                        <div class="shop-list__tagline">Вечер для двоих</div>
+                                    </div>
+                                    <div>
+                                        <div class="shop-list__action-value">-50%</div>
+                                        <div class="shop-list__action-name">Скидка</div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="shop-list__grid-item">
-                        <div class="shop-list__shop-card" style="background-image: url(images/valery_cakes.png);">
-                            <div class="shop-list__info">
-                                <div>
-                                    <div class="shop-list__shop-name">valery cakes</div>
-                                    <div class="shop-list__tagline">Торт</div>
-                                </div>
-                                <div>
-                                    <div class="shop-list__action-value">30%</div>
-                                    <div class="shop-list__action-name">Скидка</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="shop-list__grid-item">
-                        <div class="shop-list__shop-card" style="background-image: url(images/sushi_sell.png);">
-                            <div class="shop-list__info">
-                                <div>
-                                    <div class="shop-list__shop-name">Sushi sell</div>
-                                    <div class="shop-list__tagline">Набор “Праздник”</div>
-                                </div>
-                                <div>
-                                    <div class="shop-list__action-value">45%</div>
-                                    <div class="shop-list__action-name">Скидка</div>
+                        <div class="shop-list__grid-item">
+                            <div class="shop-list__shop-card" style="background-image: url(images/кино_и_немцы.png);">
+                                <div class="shop-list__info">
+                                    <div>
+                                        <div class="shop-list__shop-name">КИНО И НЕМЦЫ</div>
+                                        <div class="shop-list__tagline">Бесплатный бокал пива</div>
+                                    </div>
+                                    <div>
+                                        <div class="shop-list__action-value">ВАРВАР</div>
+                                        <div class="shop-list__action-name">ПРОМОКОД</div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="shop-list__grid-item">
-                        <div class="shop-list__shop-card" style="background-image: url(images/mangosteen.png);">
-                            <div class="shop-list__info">
-                                <div>
-                                    <div class="shop-list__shop-name">Mangosteen</div>
-                                    <div class="shop-list__tagline">Фрукт в подарок</div>
-                                </div>
-                                <div>
-                                    <div class="shop-list__action-value">J130</div>
-                                    <div class="shop-list__action-name">Купон</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="shop-list__grid-item">
-                        <div class="shop-list__shop-card" style="background-image: url(images/теленок_табака.png);">
-                            <div class="shop-list__info">
-                                <div>
-                                    <div class="shop-list__shop-name">Теленок табака</div>
-                                    <div class="shop-list__tagline">Стейк “Мачете”</div>
-                                </div>
-                                <div>
-                                    <div class="shop-list__action-value">20%</div>
-                                    <div class="shop-list__action-name">Скидка</div>
+                        <div class="shop-list__grid-item">
+                            <div class="shop-list__shop-card" style="background-image: url(images/valery_cakes.png);">
+                                <div class="shop-list__info">
+                                    <div>
+                                        <div class="shop-list__shop-name">valery cakes</div>
+                                        <div class="shop-list__tagline">Торт</div>
+                                    </div>
+                                    <div>
+                                        <div class="shop-list__action-value">30%</div>
+                                        <div class="shop-list__action-name">Скидка</div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="shop-list__grid-item">
-                        <div class="shop-list__shop-card" style="background-image: url(images/теленок_табака.png);">
-                            <div class="shop-list__info">
-                                <div>
-                                    <div class="shop-list__shop-name">fire food</div>
-                                    <div class="shop-list__tagline">Вторая шаурма в подарок</div>
-                                </div>
-                                <div>
-                                    <div class="shop-list__action-value">ОГОНЬ</div>
-                                    <div class="shop-list__action-name">Промокод</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="shop-list__grid-item">
-                        <div class="shop-list__shop-card" style="background-image: url(images/теленок_табака.png);">
-                            <div class="shop-list__info">
-                                <div>
-                                    <div class="shop-list__shop-name">aroma cremeria</div>
-                                    <div class="shop-list__tagline">Джелато “Пармезан”</div>
-                                </div>
-                                <div>
-                                    <div class="shop-list__action-value">29%</div>
-                                    <div class="shop-list__action-name">Скидка</div>
+                        <div class="shop-list__grid-item">
+                            <div class="shop-list__shop-card" style="background-image: url(images/sushi_sell.png);">
+                                <div class="shop-list__info">
+                                    <div>
+                                        <div class="shop-list__shop-name">Sushi sell</div>
+                                        <div class="shop-list__tagline">Набор “Праздник”</div>
+                                    </div>
+                                    <div>
+                                        <div class="shop-list__action-value">45%</div>
+                                        <div class="shop-list__action-name">Скидка</div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="shop-list__grid-item">
-                        <div class="shop-list__shop-card" style="background-image: url(images/пробка_на_мира.png);">
-                            <div class="shop-list__info">
-                                <div>
-                                    <div class="shop-list__shop-name">Пробка на мира</div>
-                                    <div class="shop-list__tagline">Вечер для двоих</div>
-                                </div>
-                                <div>
-                                    <div class="shop-list__action-value">J130</div>
-                                    <div class="shop-list__action-name">Купон</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="shop-list__grid-item">
-                        <div class="shop-list__shop-card" style="background-image: url(images/кино_и_немцы.png);">
-                            <div class="shop-list__info">
-                                <div>
-                                    <div class="shop-list__shop-name">КИНО И НЕМЦЫ</div>
-                                    <div class="shop-list__tagline">Бесплатный бокал пива</div>
-                                </div>
-                                <div>
-                                    <div class="shop-list__action-value">ВАРВАР</div>
-                                    <div class="shop-list__action-name">ПРОМОКОД</div>
+                        <div class="shop-list__grid-item">
+                            <div class="shop-list__shop-card" style="background-image: url(images/mangosteen.png);">
+                                <div class="shop-list__info">
+                                    <div>
+                                        <div class="shop-list__shop-name">Mangosteen</div>
+                                        <div class="shop-list__tagline">Фрукт в подарок</div>
+                                    </div>
+                                    <div>
+                                        <div class="shop-list__action-value">J130</div>
+                                        <div class="shop-list__action-name">Купон</div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="shop-list__grid-item">
-                        <div class="shop-list__shop-card" style="background-image: url(images/valery_cakes.png);">
-                            <div class="shop-list__info">
-                                <div>
-                                    <div class="shop-list__shop-name">valery cakes</div>
-                                    <div class="shop-list__tagline">Торт</div>
-                                </div>
-                                <div>
-                                    <div class="shop-list__action-value">30%</div>
-                                    <div class="shop-list__action-name">Скидка</div>
+                        <div class="shop-list__grid-item">
+                            <div class="shop-list__shop-card" style="background-image: url(images/теленок_табака.png);">
+                                <div class="shop-list__info">
+                                    <div>
+                                        <div class="shop-list__shop-name">Теленок табака</div>
+                                        <div class="shop-list__tagline">Стейк “Мачете”</div>
+                                    </div>
+                                    <div>
+                                        <div class="shop-list__action-value">20%</div>
+                                        <div class="shop-list__action-name">Скидка</div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="shop-list__grid-item">
-                        <div class="shop-list__shop-card" style="background-image: url(images/sushi_sell.png);">
-                            <div class="shop-list__info">
-                                <div>
-                                    <div class="shop-list__shop-name">Sushi sell</div>
-                                    <div class="shop-list__tagline">Набор “Праздник”</div>
+                        <div class="shop-list__grid-item">
+                            <div class="shop-list__shop-card" style="background-image: url(images/теленок_табака.png);">
+                                <div class="shop-list__info">
+                                    <div>
+                                        <div class="shop-list__shop-name">fire food</div>
+                                        <div class="shop-list__tagline">Вторая шаурма в подарок</div>
+                                    </div>
+                                    <div>
+                                        <div class="shop-list__action-value">ОГОНЬ</div>
+                                        <div class="shop-list__action-name">Промокод</div>
+                                    </div>
                                 </div>
-                                <div>
-                                    <div class="shop-list__action-value">45%</div>
-                                    <div class="shop-list__action-name">Скидка</div>
+                            </div>
+                        </div>
+                        <div class="shop-list__grid-item">
+                            <div class="shop-list__shop-card" style="background-image: url(images/теленок_табака.png);">
+                                <div class="shop-list__info">
+                                    <div>
+                                        <div class="shop-list__shop-name">aroma cremeria</div>
+                                        <div class="shop-list__tagline">Джелато “Пармезан”</div>
+                                    </div>
+                                    <div>
+                                        <div class="shop-list__action-value">29%</div>
+                                        <div class="shop-list__action-name">Скидка</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="shop-list__grid-item">
+                            <div class="shop-list__shop-card" style="background-image: url(images/пробка_на_мира.png);">
+                                <div class="shop-list__info">
+                                    <div>
+                                        <div class="shop-list__shop-name">Пробка на мира</div>
+                                        <div class="shop-list__tagline">Вечер для двоих</div>
+                                    </div>
+                                    <div>
+                                        <div class="shop-list__action-value">J130</div>
+                                        <div class="shop-list__action-name">Купон</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="shop-list__grid-item">
+                            <div class="shop-list__shop-card" style="background-image: url(images/кино_и_немцы.png);">
+                                <div class="shop-list__info">
+                                    <div>
+                                        <div class="shop-list__shop-name">КИНО И НЕМЦЫ</div>
+                                        <div class="shop-list__tagline">Бесплатный бокал пива</div>
+                                    </div>
+                                    <div>
+                                        <div class="shop-list__action-value">ВАРВАР</div>
+                                        <div class="shop-list__action-name">ПРОМОКОД</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="shop-list__grid-item">
+                            <div class="shop-list__shop-card" style="background-image: url(images/valery_cakes.png);">
+                                <div class="shop-list__info">
+                                    <div>
+                                        <div class="shop-list__shop-name">valery cakes</div>
+                                        <div class="shop-list__tagline">Торт</div>
+                                    </div>
+                                    <div>
+                                        <div class="shop-list__action-value">30%</div>
+                                        <div class="shop-list__action-name">Скидка</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="shop-list__grid-item">
+                            <div class="shop-list__shop-card" style="background-image: url(images/sushi_sell.png);">
+                                <div class="shop-list__info">
+                                    <div>
+                                        <div class="shop-list__shop-name">Sushi sell</div>
+                                        <div class="shop-list__tagline">Набор “Праздник”</div>
+                                    </div>
+                                    <div>
+                                        <div class="shop-list__action-value">45%</div>
+                                        <div class="shop-list__action-name">Скидка</div>
+                                    </div>
                                 </div>
                             </div>
                         </div>

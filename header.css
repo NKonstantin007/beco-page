@@ -1,31 +1,36 @@
-.header {
-    background: #FFFFFF;
-    padding: 40px 60px;
-}
-
-.header__title {
+.header-title {
+    padding: 40px 60px 0 60px;
     font-family: Open Sans;
     font-style: normal;
     font-weight: 600;
     font-size: 28px;
     line-height: 38px;
+    background: #FFFFFF;
     color: #000000;
     opacity: 0.85;
 }
 
-.header__search-input {
-    font-family: Open Sans;
+.search-input-wrapper {
+    padding: 32px 60px 40px 60px;
+    background: #FFFFFF;
+    border-bottom: 1px solid #E5E5E5;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+
+.search-input {
+    font-family: 'Open Sans' sans-serif;
     font-size: 18px;
     line-height: 28px;
     padding: 12px 16px 12px 40px;
     width: 100%;
     border: 1px solid rgba(51, 51, 51, 0.2);
     border-radius: 50px;
-    margin-top: 32px;
     color: rgba(0, 0, 0, 0.45);
 }
 
-.header__search-icon {
+.search-icon {
     position: relative;
     left: 16px;
     bottom: calc(28px + 12px);
@@ -34,11 +39,14 @@
 
 /* Media */
 @media screen and (max-width: 768px) {
-    .header {
-        padding: 26px;
+    .header-title  {
+        padding: 31px 26px 0 26px;
+        text-align: end;
     }
 
-    .header__title {
-        text-align: end;
+    .search-input-wrapper {
+        padding-left: 26px;
+        padding-right: 26px;
+        padding-bottom: 26px; 
     }
 }
