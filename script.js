@@ -14,4 +14,8 @@ window.onscroll = function() {
     else {
         searchInput.style.paddingLeft = '26px';
     }
+
+    if (document.documentElement.clientWidth > 768) {
+        searchInput.style.paddingLeft = '60px';
+    }
 };

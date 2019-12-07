@@ -33,6 +33,8 @@
 .search-icon {
     position: relative;
     left: 16px;
+    bottom: -webkit-calc(28px + 12px);
+    bottom: -moz-calc(28px + 12px);
     bottom: calc(28px + 12px);
     color: rgba(0, 0, 0, 0.45);
 }
@@ -41,6 +43,8 @@
 @media screen and (max-width: 768px) {
     .header-title  {
         padding: 31px 26px 0 26px;
+        -webkit-text-align: end;
+        -moz-text-align: end;
         text-align: end;
     }
 

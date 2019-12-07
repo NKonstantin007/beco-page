@@ -45,12 +45,16 @@
 .sidebar__btn-menu:before {
     left: 0;
     top: 100%; 
+    background-image: -webkit-radial-gradient(circle at 100% 100%, transparent 30px, #F3F4F9 20px);
+    background-image: -moz-radial-gradient(circle at 100% 100%, transparent 30px, #F3F4F9 20px);
     background-image: radial-gradient(circle at 100% 100%, transparent 30px, #F3F4F9 20px);
 }
 
 .sidebar__btn-menu:after {
     left: 0; 
     bottom: 100%;
+    background-image: -webkit-radial-gradient(circle at 100% 0, transparent 30px, #F3F4F9 20px);
+    background-image: -moz-radial-gradient(circle at 100% 0, transparent 30px, #F3F4F9 20px);
     background-image: radial-gradient(circle at 100% 0, transparent 30px, #F3F4F9 20px);
 }
 
@@ -73,7 +77,9 @@
 
 .sidebar__logo {
     display: flex;
-    align-items: center;
+    -webkit-align-items: center;
+       -moz-align-items: center;
+            align-items: center;
     color: #333333;
     margin-left: 42px;
     margin-bottom: 45px;
@@ -132,7 +138,9 @@
 }
 
 .sidebar__menu-ticker:checked ~ .sidebar__btn-menu .sidebar__first-line {
-    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+       -moz-transform: rotate(45deg);
+            transform: rotate(45deg);
     top: 8px;
 }
 
@@ -141,7 +149,9 @@
 }
 
 .sidebar__menu-ticker:checked ~ .sidebar__btn-menu .sidebar__third-line {
-    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+       -moz-transform: rotate(-45deg);
+            transform: rotate(-45deg);
     top: -8px;
 }
 
@@ -240,6 +250,8 @@
     }
     
     .sidebar__menu-ticker:checked ~ .sidebar__menu .sidebar__logo {
+        display: -webkit-flex;
+        display: -moz-flex;
         display: flex;
     }
     
