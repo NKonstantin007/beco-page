@@ -32,3 +32,10 @@ body {
         margin-left: 108px;
     }
 }
+
+@media screen and (max-width: 320px) {
+
+    .wrapper {
+        margin-left: 12px;
+    }
+}
